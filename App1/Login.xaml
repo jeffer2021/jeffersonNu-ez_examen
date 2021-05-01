@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Vertical">
+            <Image Source="LOGO.png" WidthRequest="209" HeightRequest="69"></Image>
+        </StackLayout>
+            <Label Text="Usuario:" TextColor="Black" FontSize="22" Padding="30,0,30,0"/>
+        <Entry x:Name="txtUsuario"/>
+<Label Text="Clave:" TextColor="Black" FontSize="22" Padding="30,0,30,0"/>
+       <Entry x:Name="txtClave" IsPassword="True"/>
+
+        <Button x:Name="btnIngresar" Text="Ingresar" TextColor="Black" FontSize="20" Clicked="btnIngresar_Clicked" />
+    </StackLayout>
+
+</ContentPage>
